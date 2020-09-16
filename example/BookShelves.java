@@ -44,6 +44,7 @@ public class BookShelves {
 
         //đếm số sách ProgrammingBook có language là "Java"
         int count = 0;
+
         for (ProgrammingBook programmingBook : programmingBookList) {
             if (programmingBook.getLanguage().equals("java")){
                 count++;
